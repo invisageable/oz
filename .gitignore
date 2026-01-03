@@ -1,0 +1,11 @@
+/.vscode
+/crates/compiler/fret-notes/personal
+/crates/compiler/oz-notes/personal
+/program
+/target
+/tmp
+
+**.DS_Store
+.env
+.todo.md
+TODO.md

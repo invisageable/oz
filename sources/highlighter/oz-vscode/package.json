@@ -1,0 +1,30 @@
+{
+  "name": "oz-syntax",
+  "displayName": "oz Configuration Syntax",
+  "description": "Syntax highlighting for .oz configuration files",
+  "version": "0.0.0",
+  "publisher": "invisageable",
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [
+      {
+        "id": "oz",
+        "aliases": ["oz"],
+        "extensions": [".oz"],
+        "configuration": "./language-configuration.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "oz",
+        "scopeName": "source.oz",
+        "path": "./syntaxes/oz.tmLanguage.json"
+      }
+    ]
+  }
+}
